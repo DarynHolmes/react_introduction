@@ -37,7 +37,7 @@ framework to showcase the first three tracks of the Michael Jackson album <em>Th
   </div>
 ```
 Make a React component using the HTML template above, where all the data is inserted using
-<strong>props</strong>.
+`props`.
 
 Use the following JavaScript object as a data source when rendering your component.
 
