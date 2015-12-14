@@ -66,7 +66,7 @@ The second parameter (props) is a JavaScript object that allows us to pass throu
 
 The third parameter is the 'markup' that should sit inside the element. In this case it is a simple string. If we wanted nested elements, we would need to use `React.createElement` again. The next example will cover nested elements.
 
-`ReactDOM.render(React.createElement(Header, null), document.getElementById('app')); creates an element, with our custom component Header (as opposed to an html string). React will then replace the specified element (div with an id of 'app') with this element.
+`ReactDOM.render(React.createElement(Header, null), document.getElementById('app'));` creates an element, with our custom component Header (as opposed to an html string). React will then replace the specified element (div with an id of 'app') with this element.
 
 Docs for createElement - https://facebook.github.io/react/docs/top-level-api.html#react. 
 
