@@ -106,7 +106,7 @@ var Header = React.createClass({
 ReactDOM.render(React.createElement(Header, null), document.getElementById('app'));
 ```
 
-Look at the first call to we see `createElement` with the `render` function. Notice the third parameter is actually a react element. In the second call to `createElement` the third parameter is a string (but technically it could have been another react element).
+Look at the first call to `createElement` within the `render` function. Notice the third parameter is actually a react element. In the second call to `createElement` the third parameter is a string (but technically it could have been another react element).
 
 
 ### Applying CSS
