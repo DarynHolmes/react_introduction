@@ -52,7 +52,7 @@ var Header = React.createClass({
 ReactDOM.render(<Header title="Mix Tape" />, document.getElementById('app')); 
 ```
 
-The render method is now use the `props`. The `{` `}` is a way of mixing regular JavaScript with JSX (variable interpolation). The value for `this.props.title` is set in the last line of the example. 
+The render method is now uses the `props`. The `{` `}` is a way of mixing regular JavaScript with JSX (variable interpolation). The value for `this.props.title` is set in the last line of the example. 
 
 ## Using CommonJS modules
 As we are using browserify, we can make use of the CommonJS pattern within the client side code. To do this create a new file in the `components` directory called `header.js` and add the following code to that file:
