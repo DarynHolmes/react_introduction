@@ -54,7 +54,7 @@ ReactDOM.render(<Header title="Mix Tape" />, document.getElementById('app'));
 
 The render method is now useing `props` to set the title. The `{` `}` is a way of mixing regular JavaScript with JSX (variable interpolation). The value for `this.props.title` is set in the last line of the example. 
 
-Note: we are using `props` to pass in the title to the Header component, and within the Header component we are using `props` to pass through a `class` to the outer `div`.
+Note: we are using `props` to pass in the title to the Header component. Within the Header component we are using `props` to pass through a `class` to the outer `div`.
 
 ## Using CommonJS modules
 As we are using browserify, we can make use of the CommonJS pattern within the client side code. To do this create a new file in the `components` directory called `header.js` and add the following code to that file:
