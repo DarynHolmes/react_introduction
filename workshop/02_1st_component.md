@@ -109,7 +109,7 @@ ReactDOM.render(React.createElement(Header, null), document.getElementById('app'
 Look at the first call to `createElement` within the `render` function. Notice the third parameter is actually a react element. In the second call to `createElement` the third parameter is a string (but technically it could have been another react element).
 
 
-### Applying CSS
+### Applying CSS via Props
 
 Let's create the JavaScript needed to generate the following HTML on the page:
 
@@ -154,7 +154,7 @@ var Header = React.createClass({
 ReactDOM.render(React.createElement(Header, null), document.getElementById('app'));
 ```
 
-As you may have expected, there are now three react elements (div, h1, and small). The first call to `React.createElement` uses the second parameter (props) to pass in the class name. Ideally this would have the key of `class` to match CSS. However that can't be used as `class` is a reserved work in JavaScript.
+As you may have expected, there are now three react elements (div, h1, and small). The first call to `React.createElement` uses the second parameter (props) to pass in the class name. Ideally this would have the key of `class` to match CSS. However that can't be used as `class` is a reserved word in JavaScript.
 
 
 
