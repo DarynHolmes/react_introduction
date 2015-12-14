@@ -99,4 +99,4 @@ The web page should render as before. Using this module approach to client devel
 
 ## Exercise 
 
-Change the Header component so that the sub-title is passed in via the `props` mechanism.
+The content withing the `small` tag is the sub-title. The excercise is to change the Header component so that the sub-title is passed in via the `props` mechanism.
