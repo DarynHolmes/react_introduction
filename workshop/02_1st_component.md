@@ -7,7 +7,7 @@ The objective of this section is to build a header component for the page. We wi
 
 First remove the "Mix Tape" content so that index.html has the following HTML:
 
-```
+```html
 <!-- src/index.html -->
 <!DOCTYPE html>
 <html>
